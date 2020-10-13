@@ -31,4 +31,4 @@ jobs:
           cache-to: type=local,dest=/tmp/.buildx-cache
           tags: |
             shunkakinoki/codespaces:latest
-            ghcr.io/shunkakinoki/codespaces:latest
+            ghcr.io/shunkakinoki/codespaces/codespaces:latest
