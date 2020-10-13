@@ -1,3 +1,9 @@
+# [1.2.0](https://github.com/shunkakinoki/codespaces/compare/v1.1.0...v1.2.0) (2020-10-13)
+
+### Features
+
+- 🎸 ini on release ([724be8d](https://github.com/shunkakinoki/codespaces/commit/724be8df3063ec4c05e7dc28d17eb9295b356980))
+
 # [1.1.0](https://github.com/shunkakinoki/codespaces/compare/v1.0.1...v1.1.0) (2020-10-13)
 
 ### Features
