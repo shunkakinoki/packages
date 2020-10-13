@@ -1,3 +1,9 @@
+# [1.1.0](https://github.com/shunkakinoki/codespaces/compare/v1.0.1...v1.1.0) (2020-10-13)
+
+### Features
+
+- 🎸 ini codespaces docker ([ee7193d](https://github.com/shunkakinoki/codespaces/commit/ee7193d09109c51e5459f8c7550e2310c0f5e132))
+
 ## [1.0.1](https://github.com/shunkakinoki/codespaces/compare/v1.0.0...v1.0.1) (2020-10-13)
 
 ### Performance Improvements
