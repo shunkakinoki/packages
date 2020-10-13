@@ -1,3 +1,9 @@
+## [1.3.2](https://github.com/shunkakinoki/codespaces/compare/v1.3.1...v1.3.2) (2020-10-13)
+
+### Performance Improvements
+
+- ⚡️ iniv2 ([89fa72d](https://github.com/shunkakinoki/codespaces/commit/89fa72d41ed4dbb8f935bb72846203d8ccca238b))
+
 ## [1.3.1](https://github.com/shunkakinoki/codespaces/compare/v1.3.0...v1.3.1) (2020-10-13)
 
 ### Performance Improvements
