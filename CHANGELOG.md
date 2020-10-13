@@ -1,3 +1,9 @@
+# [1.5.0](https://github.com/shunkakinoki/codespaces/compare/v1.4.2...v1.5.0) (2020-10-13)
+
+### Features
+
+- 🎸 ini dev containter ([01c1ed8](https://github.com/shunkakinoki/codespaces/commit/01c1ed87cdf358ba34bbb2b4af429a46d9fca6b4))
+
 ## [1.4.2](https://github.com/shunkakinoki/codespaces/compare/v1.4.1...v1.4.2) (2020-10-13)
 
 ### Performance Improvements
