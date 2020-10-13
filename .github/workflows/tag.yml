@@ -1,11 +1,10 @@
 name: Docker
 on:
   push:
-    branches:
-      - main
+    tags:
+      - "*"
 jobs:
   docker:
-    if: github.actor == 'semantic-release-bot'
     runs-on: ubuntu-latest
     steps:
       - uses: docker/setup-qemu-action@v1
