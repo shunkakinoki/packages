@@ -1,8 +1,8 @@
 name: Docker
 on:
   push:
-    tags:
-      - "*"
+    branches:
+      - main
 jobs:
   docker:
     runs-on: ubuntu-latest
