@@ -2,7 +2,7 @@ name: Docker
 on:
   push:
     branches:
-        - main
+      - main
 jobs:
   docker:
     if: github.actor === 'semantic-release-bot'
