@@ -1,3 +1,9 @@
+# [1.3.0](https://github.com/shunkakinoki/codespaces/compare/v1.2.0...v1.3.0) (2020-10-13)
+
+### Features
+
+- 🎸 smr ([9f8f3b1](https://github.com/shunkakinoki/codespaces/commit/9f8f3b167ebe221f5a33bf50b09ca47c8d8c0194))
+
 # [1.2.0](https://github.com/shunkakinoki/codespaces/compare/v1.1.0...v1.2.0) (2020-10-13)
 
 ### Features
