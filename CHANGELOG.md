@@ -1,3 +1,9 @@
+## [1.4.1](https://github.com/shunkakinoki/codespaces/compare/v1.4.0...v1.4.1) (2020-10-13)
+
+### Performance Improvements
+
+- ⚡️ main ([f20d918](https://github.com/shunkakinoki/codespaces/commit/f20d918d7487333ffa5110d2930a40ef60b434d5))
+
 # [1.4.0](https://github.com/shunkakinoki/codespaces/compare/v1.3.4...v1.4.0) (2020-10-13)
 
 ### Features
