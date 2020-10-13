@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/shunkakinoki/codespaces/compare/v1.0.0...v1.0.1) (2020-10-13)
+
+### Performance Improvements
+
+- ⚡️ ini docker hadolint ([69c4d71](https://github.com/shunkakinoki/codespaces/commit/69c4d717cb82309677db9f1c960a2639582a6804))
+
 # 1.0.0 (2020-10-13)
 
 ### Features
