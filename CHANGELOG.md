@@ -1,3 +1,9 @@
+## [1.4.2](https://github.com/shunkakinoki/codespaces/compare/v1.4.1...v1.4.2) (2020-10-13)
+
+### Performance Improvements
+
+- ⚡️ refactor gha tag ([a2be83a](https://github.com/shunkakinoki/codespaces/commit/a2be83a94f9f6e0b35275dc9313d7ecd917423bd))
+
 ## [1.4.1](https://github.com/shunkakinoki/codespaces/compare/v1.4.0...v1.4.1) (2020-10-13)
 
 ### Performance Improvements
