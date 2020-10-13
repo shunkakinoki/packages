@@ -25,7 +25,7 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          password: ${{ secrets.ACCESS_TOKEN }}
       - run: |
           echo ::set-env name=RELEASE_VERSION::${GITHUB_REF#refs/*/}
       - uses: docker/build-push-action@v2
