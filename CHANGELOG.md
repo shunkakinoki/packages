@@ -1,3 +1,9 @@
+## [1.3.1](https://github.com/shunkakinoki/codespaces/compare/v1.3.0...v1.3.1) (2020-10-13)
+
+### Performance Improvements
+
+- ⚡️ ini ([a9e8ac5](https://github.com/shunkakinoki/codespaces/commit/a9e8ac5282629ae5851ad37354c25d1d3ba4971e))
+
 # [1.3.0](https://github.com/shunkakinoki/codespaces/compare/v1.2.0...v1.3.0) (2020-10-13)
 
 ### Features
