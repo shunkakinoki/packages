@@ -1,4 +1,4 @@
-name: sentrei
+name: codespaces
 root: ~/ghq/github.com/shunkakinoki/codespaces
 attach: true
 windows:
