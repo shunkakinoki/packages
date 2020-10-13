@@ -1,7 +1,11 @@
-name: Tag
-on: release
+name: Docker
+on:
+  push:
+    branches:
+      - main
 jobs:
   docker:
+    if: github.actor === 'semantic-release-bot'
     runs-on: ubuntu-latest
     steps:
       - uses: docker/setup-qemu-action@v1
