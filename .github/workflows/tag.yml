@@ -5,7 +5,7 @@ on:
         - main
 jobs:
   docker:
-    if: gituhb.actor === 'semantic-release-bot'
+    if: github.actor === 'semantic-release-bot'
     runs-on: ubuntu-latest
     steps:
       - uses: docker/setup-qemu-action@v1
