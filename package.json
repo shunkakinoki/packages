@@ -1,10 +1,10 @@
 {
-  "name": "infrastructure",
-  "version": "2.13.2",
-  "homepage": "https://github.com/shunkakinoki/infrastructure",
+  "name": "codespaces",
+  "version": "1.0.0",
+  "homepage": "https://github.com/shunkakinoki/codespaces",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shunkakinoki/infrastructure.git"
+    "url": "https://github.com/shunkakinoki/codespaces.git"
   },
   "license": "MIT",
   "author": "Shun Kakinoki",
