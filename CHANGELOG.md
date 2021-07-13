@@ -1,3 +1,9 @@
+## [1.5.2](https://github.com/shunkakinoki/scripts/compare/v1.5.1...v1.5.2) (2021-07-13)
+
+### Performance Improvements
+
+- ini scripts workspace ([5cd60e5](https://github.com/shunkakinoki/scripts/commit/5cd60e566b1dbb0547b40f9e97f0cd0275057840))
+
 ## [1.5.1](https://github.com/shunkakinoki/codespaces/compare/v1.5.0...v1.5.1) (2021-07-13)
 
 ### Performance Improvements
