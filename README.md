@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/codespaces.png">
+  <img src="assets/scripts.png">
 </p>
 
 <div align="center">
