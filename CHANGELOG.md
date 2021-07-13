@@ -1,3 +1,9 @@
+## [1.5.1](https://github.com/shunkakinoki/codespaces/compare/v1.5.0...v1.5.1) (2021-07-13)
+
+### Performance Improvements
+
+- update scripts png ([3aeaf96](https://github.com/shunkakinoki/codespaces/commit/3aeaf9663f82cd1bc02e43e2f0a5f1689afc71b5))
+
 # [1.5.0](https://github.com/shunkakinoki/codespaces/compare/v1.4.2...v1.5.0) (2020-10-13)
 
 ### Features
