@@ -1,5 +1,5 @@
-name: codespaces
-root: ~/ghq/github.com/shunkakinoki/codespaces
+name: scripts
+root: ~/ghq/github.com/shunkakinoki/scripts
 attach: true
 windows:
   - zsh: neofetch
