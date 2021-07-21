@@ -24,7 +24,7 @@ if (pageId === undefined) {
 }
 
 const notion = new Client({
-  auth: process.env.NOTION_TOKEN,
+  auth: apiKey,
 });
 
 export const getPage = async (pageId: string) => {
@@ -32,6 +32,14 @@ export const getPage = async (pageId: string) => {
   return response;
 };
 
+export const getUsers = async () => {
+  const response = await notion.users.list();
+  return response;
+};
+
 console.log(`Running test on ${pageId}`);
 
-export {};
+void (async () => {
+  const response = await getUsers();
+  console.log(response);
+})();
