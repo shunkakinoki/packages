@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "@notionhq/client": "^0.2.3",
+    "chalk": "^4.1.1",
     "dotenv": "^10.0.0",
     "yargs": "^17.0.1"
   },
