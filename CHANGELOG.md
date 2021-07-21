@@ -1,3 +1,10 @@
+## [1.5.3-alpha.3](https://github.com/shunkakinoki/packages/compare/v1.5.3-alpha.2...v1.5.3-alpha.3) (2021-07-21)
+
+### Performance Improvements
+
+- ini eslint ignore ([e59bd5f](https://github.com/shunkakinoki/packages/commit/e59bd5f1d3243b202672bad567084aa026aeaef1))
+- ini yargs parser ([a7f5d37](https://github.com/shunkakinoki/packages/commit/a7f5d373e0a19ea6455553286907485737188165))
+
 ## [1.5.3-alpha.2](https://github.com/shunkakinoki/packages/compare/v1.5.3-alpha.1...v1.5.3-alpha.2) (2021-07-21)
 
 ### Performance Improvements
