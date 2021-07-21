@@ -1,6 +1,7 @@
 {
   "name": "@shunkakinoki/packages",
   "version": "1.5.2",
+  "private": true,
   "homepage": "https://github.com/shunkakinoki/packages",
   "bugs": {
     "url": "https://github.com/shunkakinoki/packages/issues"
@@ -11,6 +12,11 @@
   },
   "license": "MIT",
   "author": "Shun Kakinoki",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
   "scripts": {
     "check": "scripty",
     "cmd:eslint": "scripty",
