@@ -1,16 +1,14 @@
 # notion2md [1.0.0-alpha.4](https://github.com/shunkakinoki/packages/compare/notion2md@1.0.0-alpha.3...notion2md@1.0.0-alpha.4) (2021-07-21)
 
-
 ### Performance Improvements
 
-* ini env parser notion keys ([a1b7d98](https://github.com/shunkakinoki/packages/commit/a1b7d981a22ea20eb22c73869f19d5ae8710eb54))
+- ini env parser notion keys ([a1b7d98](https://github.com/shunkakinoki/packages/commit/a1b7d981a22ea20eb22c73869f19d5ae8710eb54))
 
 # notion2md [1.0.0-alpha.3](https://github.com/shunkakinoki/packages/compare/notion2md@1.0.0-alpha.2...notion2md@1.0.0-alpha.3) (2021-07-21)
 
-
 ### Performance Improvements
 
-* ini yargs parser ([a7f5d37](https://github.com/shunkakinoki/packages/commit/a7f5d373e0a19ea6455553286907485737188165))
+- ini yargs parser ([a7f5d37](https://github.com/shunkakinoki/packages/commit/a7f5d373e0a19ea6455553286907485737188165))
 
 # notion2md [1.0.0-alpha.2](https://github.com/shunkakinoki/packages/compare/notion2md@1.0.0-alpha.1...notion2md@1.0.0-alpha.2) (2021-07-21)
 
