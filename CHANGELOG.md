@@ -1,3 +1,9 @@
+## [1.5.3-alpha.4](https://github.com/shunkakinoki/packages/compare/v1.5.3-alpha.3...v1.5.3-alpha.4) (2021-07-21)
+
+### Performance Improvements
+
+- ini env parser notion keys ([a1b7d98](https://github.com/shunkakinoki/packages/commit/a1b7d981a22ea20eb22c73869f19d5ae8710eb54))
+
 ## [1.5.3-alpha.3](https://github.com/shunkakinoki/packages/compare/v1.5.3-alpha.2...v1.5.3-alpha.3) (2021-07-21)
 
 ### Performance Improvements
