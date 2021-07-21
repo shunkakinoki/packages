@@ -1,8 +1,5 @@
 name: Check
-on:
-  pull_request:
-    paths:
-      - "Dockerfile"
+on: pull_request
 jobs:
   check:
     runs-on: ubuntu-latest
