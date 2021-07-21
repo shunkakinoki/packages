@@ -1,3 +1,10 @@
+# notion2md [1.0.0-alpha.5](https://github.com/shunkakinoki/packages/compare/notion2md@1.0.0-alpha.4...notion2md@1.0.0-alpha.5) (2021-07-21)
+
+### Performance Improvements
+
+- ini chalk package ([d1f04d1](https://github.com/shunkakinoki/packages/commit/d1f04d16e2c045e63620ebda9213d00f849443ed))
+- ini notion client get users ([f1f0712](https://github.com/shunkakinoki/packages/commit/f1f0712bd90252594152495cf4d22179da0d4010))
+
 # notion2md [1.0.0-alpha.4](https://github.com/shunkakinoki/packages/compare/notion2md@1.0.0-alpha.3...notion2md@1.0.0-alpha.4) (2021-07-21)
 
 ### Performance Improvements
