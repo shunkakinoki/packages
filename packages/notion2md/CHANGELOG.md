@@ -1,3 +1,10 @@
+# notion2md [1.0.0-alpha.3](https://github.com/shunkakinoki/packages/compare/notion2md@1.0.0-alpha.2...notion2md@1.0.0-alpha.3) (2021-07-21)
+
+
+### Performance Improvements
+
+* ini yargs parser ([a7f5d37](https://github.com/shunkakinoki/packages/commit/a7f5d373e0a19ea6455553286907485737188165))
+
 # notion2md [1.0.0-alpha.2](https://github.com/shunkakinoki/packages/compare/notion2md@1.0.0-alpha.1...notion2md@1.0.0-alpha.2) (2021-07-21)
 
 ### Performance Improvements
