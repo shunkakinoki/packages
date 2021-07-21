@@ -1,5 +1,5 @@
-name: scripts
-root: ~/ghq/github.com/shunkakinoki/scripts
+name: packages
+root: ~/ghq/github.com/shunkakinoki/packages
 attach: true
 windows:
   - zsh: neofetch

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/scripts.png">
+  <img src="assets/packages.png">
 </p>
 
 <div align="center">

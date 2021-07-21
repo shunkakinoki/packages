@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "packages"
+version = "0.1.0"
+description = ""
+authors = ["Shun Kakinoki <shunkakinoki@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+notion-py = "^0.0.9"
+
+[tool.poetry.dev-dependencies]
+notion2md = "^1.2.3"
+tox = "^3.24.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
