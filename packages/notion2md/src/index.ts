@@ -32,6 +32,6 @@ export const getPage = async (pageId: string) => {
   return response;
 };
 
-console.log(`Running test on ${parser.parseSync()["page-id"]}`);
+console.log(`Running test on ${pageId}`);
 
 export {};
