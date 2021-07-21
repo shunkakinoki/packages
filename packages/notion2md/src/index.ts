@@ -1,4 +1,4 @@
-import { Client } from "@notionhq/client";
+import { Client, LogLevel } from "@notionhq/client";
 import chalk from "chalk";
 import * as dotenv from "dotenv";
 import yargs from "yargs";
@@ -25,6 +25,7 @@ if (pageId === undefined) {
 
 const notion = new Client({
   auth: apiKey,
+  logLevel: LogLevel.DEBUG,
 });
 
 export const getPage = async (pageId: string) => {
@@ -37,9 +38,14 @@ export const getUsers = async () => {
   return response;
 };
 
+export const getUser = async (userId: string) => {
+  const response = await notion.users.retrieve({ user_id: userId });
+  return response;
+};
+
 console.log(`Running test on ${pageId}`);
 
 void (async () => {
-  const response = await getUsers();
+  const response = await getPage(pageId);
   console.log(response);
 })();
