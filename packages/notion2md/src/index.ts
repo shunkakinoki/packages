@@ -82,6 +82,10 @@ export const block2md = (block: Block) => {
       return block.to_do.text.reduce((pre, cur) => {
         return pre + parseRichText(cur);
       }, "-[ ] ");
+    case "toggle":
+      return block.toggle.text.reduce((pre, cur) => {
+        return pre + parseRichText(cur);
+      }, "-");
     default:
       return;
   }
