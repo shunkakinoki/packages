@@ -1,3 +1,9 @@
+## notion2md [1.0.1](https://github.com/shunkakinoki/packages/compare/notion2md@1.0.0...notion2md@1.0.1) (2021-07-22)
+
+### Bug Fixes
+
+- ini cli bin ([9934b0d](https://github.com/shunkakinoki/packages/commit/9934b0dd01b718c6e97583f5d6cb802bbc4ecf68))
+
 # notion2md 1.0.0 (2021-07-22)
 
 ### Performance Improvements
