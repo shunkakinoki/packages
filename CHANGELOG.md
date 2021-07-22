@@ -1,3 +1,9 @@
+## [1.5.3-alpha.6](https://github.com/shunkakinoki/packages/compare/v1.5.3-alpha.5...v1.5.3-alpha.6) (2021-07-22)
+
+### Performance Improvements
+
+- initial notion2md script ([9664380](https://github.com/shunkakinoki/packages/commit/96643804e98dccc35e00656adab26b72f68dedf8))
+
 ## [1.5.3-alpha.5](https://github.com/shunkakinoki/packages/compare/v1.5.3-alpha.4...v1.5.3-alpha.5) (2021-07-21)
 
 ### Performance Improvements
