@@ -6,6 +6,8 @@ import yargs from "yargs";
 
 dotenv.config();
 
+let numbered_list_item_count = 0;
+
 const parser = yargs.options({
   "api-key": { type: "string", demandOption: false, alias: "a" },
   "page-id": { type: "string", demandOption: false, alias: "id" },
@@ -45,6 +47,12 @@ export const getUsers = async () => {
 };
 
 export const block2md = (block: Block) => {
+  if (block.type === "numbered_list_item") {
+    numbered_list_item_count += 1;
+  } else {
+    numbered_list_item_count = 0;
+  }
+
   switch (block.type) {
     case "paragraph":
       return block.paragraph.text.reduce((pre, cur) => {
@@ -62,8 +70,20 @@ export const block2md = (block: Block) => {
       return block.heading_3.text.reduce((pre, cur) => {
         return pre + parseRichText(cur);
       }, "### ");
+    case "bulleted_list_item":
+      return block.bulleted_list_item.text.reduce((pre, cur) => {
+        return pre + parseRichText(cur);
+      }, "- ");
+    case "numbered_list_item":
+      return block.numbered_list_item.text.reduce((pre, cur) => {
+        return pre + `${numbered_list_item_count}. ` + parseRichText(cur);
+      }, "");
+    case "to_do":
+      return block.to_do.text.reduce((pre, cur) => {
+        return pre + parseRichText(cur);
+      }, "-[ ] ");
     default:
-      return "";
+      return;
   }
 };
 
