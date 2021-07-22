@@ -33,7 +33,7 @@ const notion = new Client({
 
 export const getBlocks = async (blockId: string) => {
   const response = await notion.blocks.children.list({ block_id: blockId });
-  return response;
+  return response.results;
 };
 
 export const getPage = async (pageId: string) => {
@@ -85,7 +85,7 @@ export const block2md = (block: Block) => {
     case "toggle":
       return block.toggle.text.reduce((pre, cur) => {
         return pre + parseRichText(cur);
-      }, "-");
+      }, "-> ");
     default:
       return;
   }
@@ -112,8 +112,31 @@ export const parseRichText = (richText: RichText) => {
 };
 
 void (async () => {
-  const response = await getBlocks(pageId);
-  response.results.forEach(block => {
+  const blocks = await getBlocks(pageId);
+  const childBlocks = await Promise.all(
+    blocks
+      .filter(block => {
+        return block.has_children;
+      })
+      .map(async block => {
+        return {
+          id: block.id,
+          children: await getBlocks(block.id),
+        };
+      }),
+  );
+  const blocksWithChildren = blocks.map(block => {
+    if (block.type === "paragraph") {
+      const typedBlock = block[block.type];
+      if (block.has_children) {
+        typedBlock["children"] = childBlocks.find(x => {
+          return x.id === block.id;
+        })?.children;
+      }
+    }
+    return block;
+  });
+  blocksWithChildren.forEach(block => {
     console.log(block2md(block));
   });
 })();
