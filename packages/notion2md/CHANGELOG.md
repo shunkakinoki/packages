@@ -1,3 +1,9 @@
+## notion2md [1.0.2](https://github.com/shunkakinoki/packages/compare/notion2md@1.0.1...notion2md@1.0.2) (2021-07-22)
+
+### Bug Fixes
+
+- bin index.js override ([561a28e](https://github.com/shunkakinoki/packages/commit/561a28eb9bfc3104aad5ae18af3262d24fd3d0ec))
+
 ## notion2md [1.0.1](https://github.com/shunkakinoki/packages/compare/notion2md@1.0.0...notion2md@1.0.1) (2021-07-22)
 
 ### Bug Fixes
