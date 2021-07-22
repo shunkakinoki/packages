@@ -58,21 +58,29 @@ export const block2md = (block: Block) => {
 
   switch (block.type) {
     case "paragraph":
-      return block.paragraph.text.reduce((pre, cur) => {
-        return pre + parseRichText(cur) + "\n";
-      }, "");
+      return (
+        block.paragraph.text.reduce((pre, cur) => {
+          return pre + parseRichText(cur);
+        }, "") + "\n"
+      );
     case "heading_1":
-      return block.heading_1.text.reduce((pre, cur) => {
-        return pre + parseRichText(cur) + "\n";
-      }, "# ");
+      return (
+        block.heading_1.text.reduce((pre, cur) => {
+          return pre + parseRichText(cur);
+        }, "# ") + "\n"
+      );
     case "heading_2":
-      return block.heading_2.text.reduce((pre, cur) => {
-        return pre + parseRichText(cur) + "\n";
-      }, "## ");
+      return (
+        block.heading_2.text.reduce((pre, cur) => {
+          return pre + parseRichText(cur);
+        }, "## ") + "\n"
+      );
     case "heading_3":
-      return block.heading_3.text.reduce((pre, cur) => {
-        return pre + parseRichText(cur) + "\n";
-      }, "### ");
+      return (
+        block.heading_3.text.reduce((pre, cur) => {
+          return pre + parseRichText(cur);
+        }, "### ") + "\n"
+      );
     case "bulleted_list_item":
       return block.bulleted_list_item.text.reduce((pre, cur) => {
         return pre + parseRichText(cur);
@@ -86,9 +94,11 @@ export const block2md = (block: Block) => {
         return pre + parseRichText(cur);
       }, "-[ ] ");
     case "toggle":
-      return block.toggle.text.reduce((pre, cur) => {
-        return pre + parseRichText(cur) + "\n";
-      }, "-> ");
+      return (
+        block.toggle.text.reduce((pre, cur) => {
+          return pre + parseRichText(cur);
+        }, "-> ") + "\n"
+      );
     default:
       return;
   }
@@ -139,6 +149,8 @@ void (async () => {
     }
     return block;
   });
+
+  // console.dir(blocksWithChildren, { depth: null });
 
   blocksWithChildren.forEach(block => {
     const mdBlock = block2md(block);
