@@ -9,18 +9,29 @@ import yargs from "yargs";
 dotenv.config();
 
 const blocksWithMd: string[] = [];
+let list_toggle = false;
 let numbered_list_item_count = 0;
 
 const parser = yargs.options({
   "api-key": { type: "string", demandOption: false, alias: "a" },
+  "file-name": { type: "string", demandOption: false, alias: "f" },
   "page-id": { type: "string", demandOption: false, alias: "id" },
 });
 
 const apiKey = parser.parseSync()["api-key"] || process.env.NOTION_API_KEY;
+const fileName =
+  parser.parseSync()["file-name"] || process.env.NOTION2MD_FILE_NAME;
 const pageId = parser.parseSync()["page-id"] || process.env.NOTION_PAGE_ID;
 
 if (apiKey === undefined) {
   console.error(chalk.red.bold("Missing NOTION_API_KEY environment variable"));
+  process.exit(1);
+}
+
+if (fileName === undefined) {
+  console.error(
+    chalk.red.bold("Missing NOTION2MD_FILE_NAME environment variable"),
+  );
   process.exit(1);
 }
 
@@ -50,36 +61,59 @@ export const getUsers = async () => {
 };
 
 export const block2md = (block: Block) => {
+  let toggle_new_line = "";
   if (block.type === "numbered_list_item") {
     numbered_list_item_count += 1;
   } else {
     numbered_list_item_count = 0;
   }
 
+  if (
+    block.type === "bulleted_list_item" ||
+    block.type === "numbered_list_item" ||
+    block.type === "to_do"
+  ) {
+    list_toggle = true;
+  } else {
+    if (list_toggle) {
+      console.log("HERE");
+      toggle_new_line = "\n";
+    }
+    list_toggle = false;
+  }
+
   switch (block.type) {
     case "paragraph":
       return (
+        toggle_new_line +
         block.paragraph.text.reduce((pre, cur) => {
           return pre + parseRichText(cur);
-        }, "") + "\n"
+        }, "") +
+        "\n"
       );
     case "heading_1":
       return (
+        toggle_new_line +
         block.heading_1.text.reduce((pre, cur) => {
           return pre + parseRichText(cur);
-        }, "# ") + "\n"
+        }, "# ") +
+        "\n"
       );
     case "heading_2":
       return (
+        toggle_new_line +
         block.heading_2.text.reduce((pre, cur) => {
           return pre + parseRichText(cur);
-        }, "## ") + "\n"
+        }, "## ") +
+        "\n"
       );
     case "heading_3":
       return (
+        toggle_new_line +
         block.heading_3.text.reduce((pre, cur) => {
           return pre + parseRichText(cur);
-        }, "### ") + "\n"
+        }, "### ") +
+        "\n"
       );
     case "bulleted_list_item":
       return block.bulleted_list_item.text.reduce((pre, cur) => {
@@ -95,9 +129,11 @@ export const block2md = (block: Block) => {
       }, "-[ ] ");
     case "toggle":
       return (
+        toggle_new_line +
         block.toggle.text.reduce((pre, cur) => {
           return pre + parseRichText(cur);
-        }, "-> ") + "\n"
+        }, "-> ") +
+        "\n"
       );
     default:
       return;
@@ -161,5 +197,5 @@ void (async () => {
 
   const notion2md = blocksWithMd.join("\n");
 
-  fs.writeFileSync("document.txt", notion2md);
+  fs.writeFileSync(fileName, notion2md);
 })();
