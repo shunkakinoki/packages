@@ -1,3 +1,9 @@
+# notion2md [1.0.0-alpha.7](https://github.com/shunkakinoki/packages/compare/notion2md@1.0.0-alpha.6...notion2md@1.0.0-alpha.7) (2021-07-22)
+
+### Performance Improvements
+
+- ini list cmd ([65debba](https://github.com/shunkakinoki/packages/commit/65debba253575c75c70db839c6f58f136dacba87))
+
 # notion2md [1.0.0-alpha.6](https://github.com/shunkakinoki/packages/compare/notion2md@1.0.0-alpha.5...notion2md@1.0.0-alpha.6) (2021-07-22)
 
 ### Performance Improvements
