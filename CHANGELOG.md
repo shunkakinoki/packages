@@ -1,3 +1,9 @@
+## [1.5.5](https://github.com/shunkakinoki/packages/compare/v1.5.4...v1.5.5) (2021-07-22)
+
+### Bug Fixes
+
+- bin index.js override ([561a28e](https://github.com/shunkakinoki/packages/commit/561a28eb9bfc3104aad5ae18af3262d24fd3d0ec))
+
 ## [1.5.4](https://github.com/shunkakinoki/packages/compare/v1.5.3...v1.5.4) (2021-07-22)
 
 ### Bug Fixes
