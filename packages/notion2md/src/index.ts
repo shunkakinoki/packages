@@ -42,7 +42,7 @@ if (pageId === undefined) {
 
 const notion = new Client({
   auth: apiKey,
-  logLevel: LogLevel.DEBUG,
+  logLevel: LogLevel.ERROR,
 });
 
 export const getBlocks = async (blockId: string) => {
@@ -76,7 +76,6 @@ export const block2md = (block: Block) => {
     list_toggle = true;
   } else {
     if (list_toggle) {
-      console.log("HERE");
       toggle_new_line = "\n";
     }
     list_toggle = false;
