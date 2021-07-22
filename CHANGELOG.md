@@ -1,3 +1,9 @@
+## [1.5.3-alpha.7](https://github.com/shunkakinoki/packages/compare/v1.5.3-alpha.6...v1.5.3-alpha.7) (2021-07-22)
+
+### Performance Improvements
+
+- ini list cmd ([65debba](https://github.com/shunkakinoki/packages/commit/65debba253575c75c70db839c6f58f136dacba87))
+
 ## [1.5.3-alpha.6](https://github.com/shunkakinoki/packages/compare/v1.5.3-alpha.5...v1.5.3-alpha.6) (2021-07-22)
 
 ### Performance Improvements
