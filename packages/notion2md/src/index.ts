@@ -1,4 +1,5 @@
 import { Client, LogLevel } from "@notionhq/client";
+import type { Block, RichText } from "@notionhq/client/build/src/api-types";
 import chalk from "chalk";
 import * as dotenv from "dotenv";
 import yargs from "yargs";
@@ -28,6 +29,11 @@ const notion = new Client({
   logLevel: LogLevel.DEBUG,
 });
 
+export const getBlocks = async (blockId: string) => {
+  const response = await notion.blocks.children.list({ block_id: blockId });
+  return response;
+};
+
 export const getPage = async (pageId: string) => {
   const response = await notion.pages.retrieve({ page_id: pageId });
   return response;
@@ -38,14 +44,52 @@ export const getUsers = async () => {
   return response;
 };
 
-export const getUser = async (userId: string) => {
-  const response = await notion.users.retrieve({ user_id: userId });
-  return response;
+export const block2md = (block: Block) => {
+  switch (block.type) {
+    case "paragraph":
+      return block.paragraph.text.reduce((pre, cur) => {
+        return pre + parseRichText(cur);
+      }, "");
+    case "heading_1":
+      return block.heading_1.text.reduce((pre, cur) => {
+        return pre + parseRichText(cur);
+      }, "# ");
+    case "heading_2":
+      return block.heading_2.text.reduce((pre, cur) => {
+        return pre + parseRichText(cur);
+      }, "## ");
+    case "heading_3":
+      return block.heading_3.text.reduce((pre, cur) => {
+        return pre + parseRichText(cur);
+      }, "### ");
+    default:
+      return "";
+  }
 };
 
-console.log(`Running test on ${pageId}`);
+export const parseRichText = (richText: RichText) => {
+  const plainText = richText.plain_text;
+  if (richText.annotations.bold && richText.annotations.italic) {
+    return `***${plainText}***`;
+  }
+  if (richText.annotations.bold) {
+    return `**${plainText}**`;
+  }
+  if (richText.annotations.underline) {
+    return `<ins>${plainText}<ins>`;
+  }
+  if (richText.annotations.italic) {
+    return `_${plainText}_`;
+  }
+  if (richText.annotations.strikethrough) {
+    return `~~${plainText}~~`;
+  }
+  return plainText;
+};
 
 void (async () => {
-  const response = await getPage(pageId);
-  console.log(response);
+  const response = await getBlocks(pageId);
+  response.results.forEach(block => {
+    console.log(block2md(block));
+  });
 })();
