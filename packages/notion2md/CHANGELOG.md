@@ -1,3 +1,9 @@
+## notion2md [1.0.3](https://github.com/shunkakinoki/packages/compare/notion2md@1.0.2...notion2md@1.0.3) (2021-07-22)
+
+### Bug Fixes
+
+- remove debug logging ([12f150a](https://github.com/shunkakinoki/packages/commit/12f150a782ddf84995dc92b3196842b297e09c8f))
+
 ## notion2md [1.0.2](https://github.com/shunkakinoki/packages/compare/notion2md@1.0.1...notion2md@1.0.2) (2021-07-22)
 
 ### Bug Fixes
