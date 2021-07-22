@@ -1,3 +1,9 @@
+# notion2md [1.0.0-alpha.8](https://github.com/shunkakinoki/packages/compare/notion2md@1.0.0-alpha.7...notion2md@1.0.0-alpha.8) (2021-07-22)
+
+### Performance Improvements
+
+- ini notion log ([a64153c](https://github.com/shunkakinoki/packages/commit/a64153c5e0dda158a3fe30a05743abb403f1f7bd))
+
 # notion2md [1.0.0-alpha.7](https://github.com/shunkakinoki/packages/compare/notion2md@1.0.0-alpha.6...notion2md@1.0.0-alpha.7) (2021-07-22)
 
 ### Performance Improvements
