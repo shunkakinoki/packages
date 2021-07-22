@@ -1,3 +1,9 @@
+## [1.5.3-alpha.8](https://github.com/shunkakinoki/packages/compare/v1.5.3-alpha.7...v1.5.3-alpha.8) (2021-07-22)
+
+### Performance Improvements
+
+- ini notion log ([a64153c](https://github.com/shunkakinoki/packages/commit/a64153c5e0dda158a3fe30a05743abb403f1f7bd))
+
 ## [1.5.3-alpha.7](https://github.com/shunkakinoki/packages/compare/v1.5.3-alpha.6...v1.5.3-alpha.7) (2021-07-22)
 
 ### Performance Improvements
