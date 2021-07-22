@@ -1,3 +1,9 @@
+## [1.5.4](https://github.com/shunkakinoki/packages/compare/v1.5.3...v1.5.4) (2021-07-22)
+
+### Bug Fixes
+
+- ini cli bin ([9934b0d](https://github.com/shunkakinoki/packages/commit/9934b0dd01b718c6e97583f5d6cb802bbc4ecf68))
+
 ## [1.5.3](https://github.com/shunkakinoki/packages/compare/v1.5.2...v1.5.3) (2021-07-22)
 
 ### Performance Improvements
