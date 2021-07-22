@@ -1,3 +1,9 @@
+# notion2md [1.0.0-alpha.9](https://github.com/shunkakinoki/packages/compare/notion2md@1.0.0-alpha.8...notion2md@1.0.0-alpha.9) (2021-07-22)
+
+### Performance Improvements
+
+- ini toggle new line global var ([531c183](https://github.com/shunkakinoki/packages/commit/531c18352d575b9daeee6ecc687c187850319540))
+
 # notion2md [1.0.0-alpha.8](https://github.com/shunkakinoki/packages/compare/notion2md@1.0.0-alpha.7...notion2md@1.0.0-alpha.8) (2021-07-22)
 
 ### Performance Improvements
