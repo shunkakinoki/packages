@@ -1,3 +1,9 @@
+# [1.6.0](https://github.com/shunkakinoki/packages/compare/v1.5.6...v1.6.0) (2021-08-08)
+
+### Features
+
+- ini next-og-utils package ([af84669](https://github.com/shunkakinoki/packages/commit/af8466963dc8550320089af1a9862d713dd5a5c0))
+
 ## [1.5.6](https://github.com/shunkakinoki/packages/compare/v1.5.5...v1.5.6) (2021-07-22)
 
 ### Bug Fixes
