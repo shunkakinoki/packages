@@ -1,3 +1,9 @@
+## [1.6.1](https://github.com/shunkakinoki/packages/compare/v1.6.0...v1.6.1) (2021-08-08)
+
+### Bug Fixes
+
+- types and dev dependencies ([cc8a5ab](https://github.com/shunkakinoki/packages/commit/cc8a5ab1f9859f392c9b50bfca4e57b66090a3fa))
+
 # [1.6.0](https://github.com/shunkakinoki/packages/compare/v1.5.6...v1.6.0) (2021-08-08)
 
 ### Features
