@@ -1,3 +1,9 @@
+## [1.6.4](https://github.com/shunkakinoki/packages/compare/v1.6.3...v1.6.4) (2021-08-09)
+
+### Performance Improvements
+
+- refactor og composite ([3fbac7c](https://github.com/shunkakinoki/packages/commit/3fbac7c9c4a3081d035f35c4aea15af806be5e23))
+
 ## [1.6.3](https://github.com/shunkakinoki/packages/compare/v1.6.2...v1.6.3) (2021-08-09)
 
 ### Performance Improvements
