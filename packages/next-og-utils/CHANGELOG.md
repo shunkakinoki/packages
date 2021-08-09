@@ -1,3 +1,9 @@
+## next-og-utils [1.0.2](https://github.com/shunkakinoki/packages/compare/next-og-utils@1.0.1...next-og-utils@1.0.2) (2021-08-09)
+
+### Performance Improvements
+
+- refactor types utils ([d01ea06](https://github.com/shunkakinoki/packages/commit/d01ea0696de6b7889e0fa134bbf5fe6773f17e2d))
+
 ## next-og-utils [1.0.1](https://github.com/shunkakinoki/packages/compare/next-og-utils@1.0.0...next-og-utils@1.0.1) (2021-08-08)
 
 ### Bug Fixes
