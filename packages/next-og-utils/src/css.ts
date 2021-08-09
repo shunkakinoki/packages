@@ -1,8 +1,8 @@
-export const css = (
-  strings: TemplateStringsArray,
-  ...values: TemplateStringsArray[]
-): string => {
-  return values.reduce((finalString, value, index) => {
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-unsafe-call */
+
+export const css = (strings: any, ...values: any): string => {
+  return values.reduce((finalString: any, value: any, index: number) => {
     return `${finalString}${value}${strings[index + 1]}`;
   }, strings[0]);
 };
