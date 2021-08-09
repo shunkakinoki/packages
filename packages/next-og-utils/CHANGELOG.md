@@ -1,3 +1,9 @@
+## next-og-utils [1.0.3](https://github.com/shunkakinoki/packages/compare/next-og-utils@1.0.2...next-og-utils@1.0.3) (2021-08-09)
+
+### Performance Improvements
+
+- refactor css any ([d87a1ae](https://github.com/shunkakinoki/packages/commit/d87a1aecac701a3d9529ff6272e014d30c00839b))
+
 ## next-og-utils [1.0.2](https://github.com/shunkakinoki/packages/compare/next-og-utils@1.0.1...next-og-utils@1.0.2) (2021-08-09)
 
 ### Performance Improvements
