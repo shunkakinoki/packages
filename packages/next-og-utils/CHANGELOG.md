@@ -1,3 +1,9 @@
+# next-og-utils [1.1.0](https://github.com/shunkakinoki/packages/compare/next-og-utils@1.0.7...next-og-utils@1.1.0) (2021-08-09)
+
+### Features
+
+- revamp named exports ([69ad66e](https://github.com/shunkakinoki/packages/commit/69ad66ebfae66a5266090905414038ee8b5ded1c))
+
 ## next-og-utils [1.0.7](https://github.com/shunkakinoki/packages/compare/next-og-utils@1.0.6...next-og-utils@1.0.7) (2021-08-09)
 
 ### Performance Improvements
