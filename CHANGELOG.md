@@ -1,3 +1,9 @@
+## [1.6.5](https://github.com/shunkakinoki/packages/compare/v1.6.4...v1.6.5) (2021-08-09)
+
+### Performance Improvements
+
+- refactor og type ([2b15461](https://github.com/shunkakinoki/packages/commit/2b15461abcc6818155127dd65e185bd6a85db254))
+
 ## [1.6.4](https://github.com/shunkakinoki/packages/compare/v1.6.3...v1.6.4) (2021-08-09)
 
 ### Performance Improvements
