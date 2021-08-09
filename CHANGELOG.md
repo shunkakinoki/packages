@@ -1,3 +1,9 @@
+# [1.7.0](https://github.com/shunkakinoki/packages/compare/v1.6.7...v1.7.0) (2021-08-09)
+
+### Features
+
+- revamp named exports ([69ad66e](https://github.com/shunkakinoki/packages/commit/69ad66ebfae66a5266090905414038ee8b5ded1c))
+
 ## [1.6.7](https://github.com/shunkakinoki/packages/compare/v1.6.6...v1.6.7) (2021-08-09)
 
 ### Performance Improvements
