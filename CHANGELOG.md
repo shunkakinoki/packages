@@ -1,3 +1,9 @@
+## [1.6.6](https://github.com/shunkakinoki/packages/compare/v1.6.5...v1.6.6) (2021-08-09)
+
+### Performance Improvements
+
+- revert to cjs ([05a9758](https://github.com/shunkakinoki/packages/commit/05a975820adc76431504e2def934ebc10b07239b))
+
 ## [1.6.5](https://github.com/shunkakinoki/packages/compare/v1.6.4...v1.6.5) (2021-08-09)
 
 ### Performance Improvements
