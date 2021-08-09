@@ -1,3 +1,9 @@
+## next-og-utils [1.0.7](https://github.com/shunkakinoki/packages/compare/next-og-utils@1.0.6...next-og-utils@1.0.7) (2021-08-09)
+
+### Performance Improvements
+
+- refactror tsconfig package ([365e931](https://github.com/shunkakinoki/packages/commit/365e9316dd0e2d746d57be5f233f2f8e815c4a38))
+
 ## next-og-utils [1.0.6](https://github.com/shunkakinoki/packages/compare/next-og-utils@1.0.5...next-og-utils@1.0.6) (2021-08-09)
 
 ### Performance Improvements
