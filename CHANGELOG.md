@@ -1,3 +1,9 @@
+## [1.6.7](https://github.com/shunkakinoki/packages/compare/v1.6.6...v1.6.7) (2021-08-09)
+
+### Performance Improvements
+
+- refactror tsconfig package ([365e931](https://github.com/shunkakinoki/packages/commit/365e9316dd0e2d746d57be5f233f2f8e815c4a38))
+
 ## [1.6.6](https://github.com/shunkakinoki/packages/compare/v1.6.5...v1.6.6) (2021-08-09)
 
 ### Performance Improvements
