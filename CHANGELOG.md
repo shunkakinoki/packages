@@ -1,3 +1,9 @@
+## [1.6.2](https://github.com/shunkakinoki/packages/compare/v1.6.1...v1.6.2) (2021-08-09)
+
+### Performance Improvements
+
+- refactor types utils ([d01ea06](https://github.com/shunkakinoki/packages/commit/d01ea0696de6b7889e0fa134bbf5fe6773f17e2d))
+
 ## [1.6.1](https://github.com/shunkakinoki/packages/compare/v1.6.0...v1.6.1) (2021-08-08)
 
 ### Bug Fixes
