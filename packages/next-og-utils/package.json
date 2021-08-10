@@ -12,15 +12,13 @@
   },
   "license": "MIT",
   "author": "Shun Kakinoki",
-  "type": "module",
-  "exports": "dist/index.modern.js",
-  "main": "dist/index.cjs",
-  "unpkg": "dist/index.umd.js",
-  "module": "dist/index.module.js",
-  "source": "src/index.ts",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
-    "build": "microbundle",
+    "build": "tsc",
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
