@@ -1,3 +1,9 @@
+## next-og-utils [1.1.3](https://github.com/shunkakinoki/packages/compare/next-og-utils@1.1.2...next-og-utils@1.1.3) (2021-08-10)
+
+### Performance Improvements
+
+- upgrade package utils ([75361ed](https://github.com/shunkakinoki/packages/commit/75361edbf88b1d1cc4fb61581b0706c6babccd23))
+
 ## next-og-utils [1.1.2](https://github.com/shunkakinoki/packages/compare/next-og-utils@1.1.1...next-og-utils@1.1.2) (2021-08-10)
 
 ### Performance Improvements
