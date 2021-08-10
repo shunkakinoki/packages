@@ -1,3 +1,9 @@
+## [1.7.2](https://github.com/shunkakinoki/packages/compare/v1.7.1...v1.7.2) (2021-08-10)
+
+### Performance Improvements
+
+- ini types utils ([0028e29](https://github.com/shunkakinoki/packages/commit/0028e29d531e0848e7f87f95969e7667f006cfad))
+
 ## [1.7.1](https://github.com/shunkakinoki/packages/compare/v1.7.0...v1.7.1) (2021-08-10)
 
 ### Performance Improvements
