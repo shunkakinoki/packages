@@ -1,3 +1,9 @@
+## [1.7.1](https://github.com/shunkakinoki/packages/compare/v1.7.0...v1.7.1) (2021-08-10)
+
+### Performance Improvements
+
+- ini microbundle js ([2742b92](https://github.com/shunkakinoki/packages/commit/2742b92a5e67336eb7e2fec8f36c444627eda6b6))
+
 # [1.7.0](https://github.com/shunkakinoki/packages/compare/v1.6.7...v1.7.0) (2021-08-09)
 
 ### Features

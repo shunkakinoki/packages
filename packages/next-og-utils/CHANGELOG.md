@@ -1,3 +1,9 @@
+## next-og-utils [1.1.1](https://github.com/shunkakinoki/packages/compare/next-og-utils@1.1.0...next-og-utils@1.1.1) (2021-08-10)
+
+### Performance Improvements
+
+- ini microbundle js ([2742b92](https://github.com/shunkakinoki/packages/commit/2742b92a5e67336eb7e2fec8f36c444627eda6b6))
+
 # next-og-utils [1.1.0](https://github.com/shunkakinoki/packages/compare/next-og-utils@1.0.7...next-og-utils@1.1.0) (2021-08-09)
 
 ### Features
