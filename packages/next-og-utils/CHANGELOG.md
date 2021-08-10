@@ -1,3 +1,9 @@
+## next-og-utils [1.1.2](https://github.com/shunkakinoki/packages/compare/next-og-utils@1.1.1...next-og-utils@1.1.2) (2021-08-10)
+
+### Performance Improvements
+
+- ini types utils ([0028e29](https://github.com/shunkakinoki/packages/commit/0028e29d531e0848e7f87f95969e7667f006cfad))
+
 ## next-og-utils [1.1.1](https://github.com/shunkakinoki/packages/compare/next-og-utils@1.1.0...next-og-utils@1.1.1) (2021-08-10)
 
 ### Performance Improvements
