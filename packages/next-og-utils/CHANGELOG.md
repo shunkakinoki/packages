@@ -1,3 +1,9 @@
+## next-og-utils [1.1.7](https://github.com/shunkakinoki/packages/compare/next-og-utils@1.1.6...next-og-utils@1.1.7) (2021-08-11)
+
+### Performance Improvements
+
+- ini react jsx ([15797fa](https://github.com/shunkakinoki/packages/commit/15797fafa25539bc66b23d3c5e9f4a61984553b3))
+
 ## next-og-utils [1.1.6](https://github.com/shunkakinoki/packages/compare/next-og-utils@1.1.5...next-og-utils@1.1.6) (2021-08-11)
 
 ### Performance Improvements
