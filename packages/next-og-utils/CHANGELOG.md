@@ -1,3 +1,9 @@
+## next-og-utils [1.1.6](https://github.com/shunkakinoki/packages/compare/next-og-utils@1.1.5...next-og-utils@1.1.6) (2021-08-11)
+
+### Performance Improvements
+
+- refactor peer dependencies ([52cc542](https://github.com/shunkakinoki/packages/commit/52cc54206ffe532b109dfd52e35fea7d0cf0f23e))
+
 ## next-og-utils [1.1.5](https://github.com/shunkakinoki/packages/compare/next-og-utils@1.1.4...next-og-utils@1.1.5) (2021-08-11)
 
 ### Bug Fixes
