@@ -1,3 +1,9 @@
+## next-og-utils [1.1.5](https://github.com/shunkakinoki/packages/compare/next-og-utils@1.1.4...next-og-utils@1.1.5) (2021-08-11)
+
+### Bug Fixes
+
+- refactor screenshot packages ([01eb7ee](https://github.com/shunkakinoki/packages/commit/01eb7eee2f583ed00f32e449c6fb6e2215f488b3))
+
 ## next-og-utils [1.1.4](https://github.com/shunkakinoki/packages/compare/next-og-utils@1.1.3...next-og-utils@1.1.4) (2021-08-11)
 
 ### Performance Improvements
