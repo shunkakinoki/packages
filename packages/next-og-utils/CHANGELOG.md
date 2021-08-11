@@ -1,3 +1,9 @@
+## next-og-utils [1.1.4](https://github.com/shunkakinoki/packages/compare/next-og-utils@1.1.3...next-og-utils@1.1.4) (2021-08-11)
+
+### Performance Improvements
+
+- ini puppeteer types ([c4e5053](https://github.com/shunkakinoki/packages/commit/c4e5053150a772ec651fbd15d0e44002435f69ea))
+
 ## next-og-utils [1.1.3](https://github.com/shunkakinoki/packages/compare/next-og-utils@1.1.2...next-og-utils@1.1.3) (2021-08-10)
 
 ### Performance Improvements
