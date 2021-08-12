@@ -1,3 +1,9 @@
+## [1.7.8](https://github.com/shunkakinoki/packages/compare/v1.7.7...v1.7.8) (2021-08-12)
+
+### Performance Improvements
+
+- refactor notion2md blocks ([6379ffd](https://github.com/shunkakinoki/packages/commit/6379ffdefade5fb350f70fcaee1456f81b8a41c0))
+
 ## [1.7.7](https://github.com/shunkakinoki/packages/compare/v1.7.6...v1.7.7) (2021-08-11)
 
 ### Performance Improvements
