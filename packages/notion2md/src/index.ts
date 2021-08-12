@@ -141,6 +141,9 @@ export const block2md = (block: Block) => {
 
 export const parseRichText = (richText: RichText) => {
   const plainText = richText.plain_text;
+  if (richText.href) {
+    return `[${plainText}](${richText.href})`;
+  }
   if (richText.annotations.bold && richText.annotations.italic) {
     return `***${plainText}***`;
   }
@@ -185,7 +188,7 @@ void (async () => {
     return block;
   });
 
-  // console.dir(blocksWithChildren, { depth: null });
+  console.dir(blocksWithChildren, { depth: null });
 
   blocksWithChildren.forEach(block => {
     const mdBlock = block2md(block);
