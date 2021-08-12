@@ -1,3 +1,9 @@
+# [1.8.0](https://github.com/shunkakinoki/packages/compare/v1.7.10...v1.8.0) (2021-08-12)
+
+### Features
+
+- ini href parser ([ee96e30](https://github.com/shunkakinoki/packages/commit/ee96e301a1ffdab60392cebbca7fc0b8cdc6c896))
+
 ## [1.7.10](https://github.com/shunkakinoki/packages/compare/v1.7.9...v1.7.10) (2021-08-12)
 
 ### Performance Improvements
