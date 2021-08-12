@@ -1,3 +1,9 @@
+## notion2md [1.0.5](https://github.com/shunkakinoki/packages/compare/notion2md@1.0.4...notion2md@1.0.5) (2021-08-12)
+
+### Performance Improvements
+
+- update notion2md index ([6f99bca](https://github.com/shunkakinoki/packages/commit/6f99bcaa83098d9d440f60b2a3365fbc34ce30c6))
+
 ## notion2md [1.0.4](https://github.com/shunkakinoki/packages/compare/notion2md@1.0.3...notion2md@1.0.4) (2021-08-12)
 
 ### Performance Improvements
