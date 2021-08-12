@@ -1,3 +1,9 @@
+# notion2md [1.1.0](https://github.com/shunkakinoki/packages/compare/notion2md@1.0.6...notion2md@1.1.0) (2021-08-12)
+
+### Features
+
+- ini href parser ([ee96e30](https://github.com/shunkakinoki/packages/commit/ee96e301a1ffdab60392cebbca7fc0b8cdc6c896))
+
 ## notion2md [1.0.6](https://github.com/shunkakinoki/packages/compare/notion2md@1.0.5...notion2md@1.0.6) (2021-08-12)
 
 ### Performance Improvements
