@@ -1,3 +1,9 @@
+## notion2md [1.0.4](https://github.com/shunkakinoki/packages/compare/notion2md@1.0.3...notion2md@1.0.4) (2021-08-12)
+
+### Performance Improvements
+
+- refactor notion2md blocks ([6379ffd](https://github.com/shunkakinoki/packages/commit/6379ffdefade5fb350f70fcaee1456f81b8a41c0))
+
 ## notion2md [1.0.3](https://github.com/shunkakinoki/packages/compare/notion2md@1.0.2...notion2md@1.0.3) (2021-07-22)
 
 ### Bug Fixes
