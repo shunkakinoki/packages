@@ -1,3 +1,9 @@
+## notion2md [1.0.6](https://github.com/shunkakinoki/packages/compare/notion2md@1.0.5...notion2md@1.0.6) (2021-08-12)
+
+### Performance Improvements
+
+- remove duplicate lines at end of file ([4fe4e96](https://github.com/shunkakinoki/packages/commit/4fe4e9633c4550fafdb02590828cabb646b12fe1))
+
 ## notion2md [1.0.5](https://github.com/shunkakinoki/packages/compare/notion2md@1.0.4...notion2md@1.0.5) (2021-08-12)
 
 ### Performance Improvements
