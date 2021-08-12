@@ -194,7 +194,7 @@ void (async () => {
     }
   });
 
-  const notion2md = blocksWithMd.join("\n") + "\n";
+  const notion2md = blocksWithMd.join("\n");
 
   fs.writeFileSync(fileName, notion2md);
 })();
