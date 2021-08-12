@@ -1,3 +1,9 @@
+## [1.7.10](https://github.com/shunkakinoki/packages/compare/v1.7.9...v1.7.10) (2021-08-12)
+
+### Performance Improvements
+
+- remove duplicate lines at end of file ([4fe4e96](https://github.com/shunkakinoki/packages/commit/4fe4e9633c4550fafdb02590828cabb646b12fe1))
+
 ## [1.7.9](https://github.com/shunkakinoki/packages/compare/v1.7.8...v1.7.9) (2021-08-12)
 
 ### Performance Improvements
