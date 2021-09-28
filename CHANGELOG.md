@@ -1,3 +1,9 @@
+## [1.8.1](https://github.com/shunkakinoki/packages/compare/v1.8.0...v1.8.1) (2021-09-28)
+
+### Bug Fixes
+
+- **deps:** update dependency notion-py to ^0.0.10 ([#22](https://github.com/shunkakinoki/packages/issues/22)) ([0e9fe93](https://github.com/shunkakinoki/packages/commit/0e9fe9346b1b31997db66e2594ef7dfa8062c450))
+
 # [1.8.0](https://github.com/shunkakinoki/packages/compare/v1.7.10...v1.8.0) (2021-08-12)
 
 ### Features
