@@ -152,7 +152,7 @@ tzlocal = "*"
 
 [[package]]
 name = "notion-py"
-version = "0.0.9"
+version = "0.0.10"
 description = "(Fork of) Unofficial Python API client for Notion.so"
 category = "main"
 optional = false
@@ -365,7 +365,7 @@ testing = ["coverage (>=4)", "coverage-enable-subprocess (>=1)", "flaky (>=3)", 
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "efb5fb20fccee07d7a81b807faa18e1029659ab6f415ca91740a3d124453ec15"
+content-hash = "8740ffb6e79f32adba7e37a9d88b0d2ff86374df23cf54eef9e586b0fa288693"
 
 [metadata.files]
 "backports.entry-points-selectable" = [
@@ -429,8 +429,8 @@ notion = [
     {file = "notion-0.0.28.tar.gz", hash = "sha256:a6c511e1055bb69f05d75220f3f6a5de377a52d42ae38186c3138557c6b4942a"},
 ]
 notion-py = [
-    {file = "notion-py-0.0.9.tar.gz", hash = "sha256:1b5fee418da22befa28bb2fabafaee5322db059c8d9f4cebdd850527760d7206"},
-    {file = "notion_py-0.0.9-py3-none-any.whl", hash = "sha256:03dfe28d952af25dae9d61089109212bb33b826526967f0942fff76ed5be1717"},
+    {file = "notion-py-0.0.10.tar.gz", hash = "sha256:de53f896f86205f010fef6824e91a4de10dc351719252d18efe83fb87472a75f"},
+    {file = "notion_py-0.0.10-py3-none-any.whl", hash = "sha256:3599d6368628b076a8799f93758158efc648bec70fb050a0bcfd757376131982"},
 ]
 notion2md = [
     {file = "notion2md-1.2.3.1-py3-none-any.whl", hash = "sha256:6aaebbfbc1ca5aa76a28dc8dc0d4f167450d98d30295bddd007418de9597275a"},
