@@ -7,7 +7,7 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-notion-py = "^0.0.9"
+notion-py = "^0.0.10"
 
 [tool.poetry.dev-dependencies]
 notion2md = "^1.2.3"
