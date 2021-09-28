@@ -11,7 +11,7 @@ notion-py = "^0.0.9"
 
 [tool.poetry.dev-dependencies]
 notion2md = "^1.2.3"
-tox = "^3.24.0"
+tox = "^3.24.4"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
