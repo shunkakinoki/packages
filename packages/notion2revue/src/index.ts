@@ -1,27 +1,22 @@
-import * as fs from "fs";
-
 import { Client, LogLevel } from "@notionhq/client";
 import type { Block, RichText } from "@notionhq/client/build/src/api-types";
 import chalk from "chalk";
 import * as dotenv from "dotenv";
+import fetch from "node-fetch";
 import yargs from "yargs";
 
 dotenv.config();
 
-const blocksWithMd: string[] = [];
 let list_toggle = false;
 let numbered_list_item_count = 0;
 
 const parser = yargs.options({
   "api-key": { type: "string", demandOption: false, alias: "a" },
   "revue-key": { type: "string", demandOption: false, alias: "r" },
-  "file-name": { type: "string", demandOption: false, alias: "f" },
   "page-id": { type: "string", demandOption: false, alias: "id" },
 });
 
 const apiKey = parser.parseSync()["api-key"] || process.env.NOTION_API_KEY;
-const fileName =
-  parser.parseSync()["file-name"] || process.env.NOTION2MD_FILE_NAME;
 const revueKey = parser.parseSync()["revue-key"] || process.env.REVUE_API_KEY;
 const pageId = parser.parseSync()["page-id"] || process.env.NOTION_PAGE_ID;
 
@@ -30,10 +25,8 @@ if (apiKey === undefined) {
   process.exit(1);
 }
 
-if (fileName === undefined) {
-  console.error(
-    chalk.red.bold("Missing NOTION2MD_FILE_NAME environment variable"),
-  );
+if (revueKey === undefined) {
+  console.error(chalk.red.bold("Missing REVUE_API_KEY environment variable"));
   process.exit(1);
 }
 
@@ -207,7 +200,7 @@ void (async () => {
   });
 
   console.dir(blocksWithChildren);
-  console.dir(getRevueLatest());
+  console.dir(await getRevueLatest());
 
   // blocksWithChildren.forEach(block => {
   //   const mdBlock = block2md(block);
