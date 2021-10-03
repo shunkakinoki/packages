@@ -1,3 +1,9 @@
+# [1.9.0](https://github.com/shunkakinoki/packages/compare/v1.8.1...v1.9.0) (2021-10-03)
+
+### Features
+
+- ini notion2revue ([3187593](https://github.com/shunkakinoki/packages/commit/3187593f0a30bc6792c8e0a43e6b3a888e627efe))
+
 ## [1.8.1](https://github.com/shunkakinoki/packages/compare/v1.8.0...v1.8.1) (2021-09-28)
 
 ### Bug Fixes
