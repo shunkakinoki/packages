@@ -59,7 +59,7 @@
     "@shunkakinoki/prettier": "^1.0.0",
     "@shunkakinoki/semantic-release": "^1.2.6",
     "@shunkakinoki/stylelint": "^1.0.1",
-    "@shunkakinoki/tsconfig": "^1.1.1",
+    "@shunkakinoki/tsconfig": "^1.1.2",
     "microbundle": "^0.13.3"
   },
   "npmpackagejsonlint": {
