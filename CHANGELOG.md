@@ -1,3 +1,9 @@
+## [1.9.2](https://github.com/shunkakinoki/packages/compare/v1.9.1...v1.9.2) (2021-10-31)
+
+### Bug Fixes
+
+- **deps:** update dependency next to ^12.0.2 ([#76](https://github.com/shunkakinoki/packages/issues/76)) ([eba80e5](https://github.com/shunkakinoki/packages/commit/eba80e567044c9dbce7d3a55cfc6f01a163e12c1))
+
 ## [1.9.1](https://github.com/shunkakinoki/packages/compare/v1.9.0...v1.9.1) (2021-10-28)
 
 ### Bug Fixes
