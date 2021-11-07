@@ -1,3 +1,9 @@
+## next-og-utils [1.1.10](https://github.com/shunkakinoki/packages/compare/next-og-utils@1.1.9...next-og-utils@1.1.10) (2021-11-07)
+
+### Bug Fixes
+
+- **deps:** update dependency next to ^12.0.3 ([#86](https://github.com/shunkakinoki/packages/issues/86)) ([3d119f4](https://github.com/shunkakinoki/packages/commit/3d119f4b12ad2395cd84a8e4ae230a17e97bcffc))
+
 ## next-og-utils [1.1.9](https://github.com/shunkakinoki/packages/compare/next-og-utils@1.1.8...next-og-utils@1.1.9) (2021-10-31)
 
 ### Bug Fixes
