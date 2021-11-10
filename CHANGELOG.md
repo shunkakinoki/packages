@@ -1,3 +1,9 @@
+## [1.9.4](https://github.com/shunkakinoki/packages/compare/v1.9.3...v1.9.4) (2021-11-10)
+
+### Bug Fixes
+
+- **deps:** update dependency node-fetch to ^3.1.0 ([#90](https://github.com/shunkakinoki/packages/issues/90)) ([36eb750](https://github.com/shunkakinoki/packages/commit/36eb7506efca9837b3c434d89b84255dcde0db9a))
+
 ## [1.9.3](https://github.com/shunkakinoki/packages/compare/v1.9.2...v1.9.3) (2021-11-07)
 
 ### Bug Fixes
