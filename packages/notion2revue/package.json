@@ -28,7 +28,7 @@
     "notion2revue": "node dist/index.js"
   },
   "dependencies": {
-    "@notionhq/client": "^0.3.3",
+    "@notionhq/client": "^0.4.6",
     "chalk": "^4.1.2",
     "dotenv": "^10.0.0",
     "node-fetch": "^3.1.0",

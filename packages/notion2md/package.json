@@ -27,7 +27,7 @@
     "notion2md": "node dist/index.js"
   },
   "dependencies": {
-    "@notionhq/client": "^0.3.3",
+    "@notionhq/client": "^0.4.6",
     "chalk": "^4.1.2",
     "dotenv": "^10.0.0",
     "yargs": "^17.2.1"
